@@ -27,4 +27,12 @@ Include the provider's full response text in every case, including the complete 
 call fails -- a failed lookup is itself a fact about the deployment target that the reader needs,
 and an omitted one cannot be distinguished from a lookup nobody made.
 
+If no database tools are available to you in this session, write exactly one line under the
+heading instead:
+
+    NO DATABASE TOOLS AVAILABLE IN THIS SESSION
+
+and nothing else under it. That line and a provider error are different facts and must not be
+written in place of one another.
+
 Documentation without this section is treated as incomplete.
